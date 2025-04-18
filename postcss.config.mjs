@@ -1,5 +1,8 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
-};
-
-export default config;
+// tailwind.config.js
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
